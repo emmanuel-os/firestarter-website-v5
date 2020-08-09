@@ -43,17 +43,65 @@
       <div class="loader"></div>
     </div>
     <!-- Preloader End -->
+    <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <div class="navbutton">
+            <div class="navrow">
+                <div class="navcolumn1">
+                    <img src="images/icons/navbtn_white.png"/>
+                </div>
+                <div class="navcolumn2">
+                    <h1 style="color:#EBFAFA;font-size: 25;font-weight: 700;">Firestarter</h1>
+                </div>
+            </div>
+        </div>
+  </a>
+  <div class="overlay-content">
+    <a href="#"><br>social alpha<br></a>
+    <a href="porfolio.html"><br>impact porfolio<br></a>
+    <a href="client-services.html"><br>client services<br></a>
+    <a href="#"><br>about us<br></a>
+    <a><br><br><br><form>
+  <input type="text" id="email" name="email" placeholder="your email address">&nbsp;&nbsp;&nbsp;<input type="submit" value="join our newsletter >">
+</form></a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">
+
+<div class="navbutton">
+            <div class="navrow">
+                <div class="navcolumn1">
+                    <img src="images/icons/navbtn_blue.png"/>
+                </div>
+                <div class="navcolumn2">
+                    <h1 style="color:#5D97CF;font-size: 25;font-weight: 700;">Firestarter</h1>
+                </div>
+            </div>
+        </div>
+
+
+</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
   <div class ="portfolio-table">
 
     <div class="portfolio-row">
       <div class="portfolio-cell feature" style="background-color:#454B5B;">
-    <h1><a href="" style="color:#EBFAFA;">local<br>giving</a></h1>
+    <h1><a href="local-giving.html" style="color:#EBFAFA;">local<br>giving</a></h1>
       </div>
       <div class="portfolio-cell feature" style="background-color:#5D97CF;">
-    <h1><a href="" style="color:#EBFAFA;">media &<br>publication</a></h1>
+    <h1><a href="media-publications.html" style="color:#EBFAFA;">media &<br>publication</a></h1>
       </div>
       <div class="portfolio-cell" style="background-color:#E67E65;">
-    <h1><a href="" style="color:#EBFAFA;">social<br>enterprise</a></h1>
+    <h1><a href="social-enterprise.html" style="color:#EBFAFA;">social<br>enterprise</a></h1>
       </div>
     </div>
  </div>

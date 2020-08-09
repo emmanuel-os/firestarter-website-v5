@@ -95,7 +95,9 @@
 
       </div>
       <div class="portfolio-cell feature" style="background-color:#5D97CF;">
-        <div class="navbutton">
+        <div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
+    <div class="navbutton">
             <div class="navrow">
                 <div class="navcolumn1">
                     <img src="images/icons/navbtn_white.png"/>
@@ -105,6 +107,42 @@
                 </div>
             </div>
         </div>
+  </a>
+  <div class="overlay-content">
+    <a href="#"><br>social alpha<br></a>
+    <a href="#"><br>impact porfolio<br></a>
+    <a href="#"><br>client services<br></a>
+    <a href="#"><br>about us<br></a>
+    <a><br><br><br><form>
+  <input type="text" id="email" name="email" placeholder="your email address">&nbsp;&nbsp;&nbsp;<input type="submit" value="join our newsletter >">
+</form></a>
+  </div>
+</div>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">
+
+<div class="navbutton">
+            <div class="navrow">
+                <div class="navcolumn1">
+                    <img src="images/icons/navbtn_white.png"/>
+                </div>
+                <div class="navcolumn2">
+                    <h1 style="color:#EBFAFA;font-size: 25;font-weight: 700;">Firestarter</h1>
+                </div>
+            </div>
+        </div>
+
+
+</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
     <h1 style="font-size: 45px;">media &<br>publication<br> </h1>
     <p style="font-size: 30px;"><br><i>Scroll over an image to watch the film.</i><br><br><br><br> </p>
       </div>
